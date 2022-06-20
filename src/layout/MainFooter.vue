@@ -34,7 +34,7 @@
         <!-- <a href="https:///www.invisionapp.com" target="_blank" rel="noopener"
           >Invision</a
         > -->
-        . Coded by
+        Coded by
         <a rel="noopener"
           >Lanka Technology</a
         >.

@@ -36,7 +36,7 @@
             <div class="card margin-right-desktop" style="width:20rem;">
               <div class="card-body">
                 <h4 class="card-title text-warning font-weight-600">Lanka Petroleum</h4>
-                <p class="card-text text-center">Lanka Petroleum grows prosperity by advancing trade.
+                <p class="card-text text-center font-weight-500">Lanka Petroleum grows prosperity by advancing trade.
                   We move physical commodities from where they are plentiful to where
                   they are most needed – reliably, efficiently and responsibly...
                 </p>
@@ -45,9 +45,9 @@
             <div class="card" style="width:20rem;">
               <div class="card-body">
                 <h4 class="card-title text-warning font-weight-600">Lanka Technology</h4>
-                <p class="card-text text-center">Lanka Technology grows prosperity by advancing technology.
+                <p class="card-text text-center font-weight-500">Lanka Technology grows prosperity by advancing technology.
                   We move physical and mentally commodities from where they are plentiful to where
-                  they are most needed – reliably ...
+                  they are most needed – reliably, efficiently and responsibly...
                 </p>
               </div> 
             </div>
@@ -148,14 +148,14 @@
                 <h4 class="title">Shahab Mirzaei</h4>
                 <p class="category text-primary">General Manager</p>
                 <p class="description">
-                  Co-Founder & Board Member
+                  Board Member
                 </p>
-                 <a
+                 <!-- <a
                   href="https://www.linkedin.com/in/shahab-mirzaei-862735183"
                   class="btn btn-primary btn-icon btn-round"
                   target="_blank"
                   ><i class="fab fa-linkedin"></i
-                ></a>
+                ></a> -->
                 <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-google-plus"></i
                 ></a>
@@ -177,17 +177,17 @@
                 <h4 class="title">Parisa Nouri</h4>
                 <p class="category text-primary">Marketing Manager</p>
                 <p class="description">
-                  Co-Founder & Board Member
+                  Board Member
                 </p>
                 <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
                 ></a> -->
-                <a
+                <!-- <a
                   href="https://www.linkedin.com/in/parisa-nouri"
                   class="btn btn-primary btn-icon btn-round"
                   target="_blank"
                 ><i class="fab fa-linkedin"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
             <div class="col-md-4">
@@ -202,12 +202,12 @@
                 <p class="description">
                  Board Member
                 </p>
-                 <a
+                 <!-- <a
                   href="https://www.linkedin.com/in/ahmadreza-mohammadi-8b3574149"
                   class="btn btn-primary btn-icon btn-round"
                   target="_blank"
                   ><i class="fab fa-linkedin"></i
-                  ></a>
+                  ></a> -->
                 <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
                 ></a>

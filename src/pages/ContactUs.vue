@@ -14,23 +14,23 @@
             <div class="card card-nav-tabs">
               <div class="card-body">
                 <h4 class="card-title">Iran Office: </h4>
-                <p class="card-text">
+                <p class="card-text font-weight-400">
                   <i class="fas fa-map-marker-alt text-primary l-mR5"></i>
                   unit 3, No. 9, Shokoufeh Alley, Sharifi Alley, 
                   West Akhlaghi St., Dolat St., Tehran, Iran.
                 </p>
                 <h4 class="card-title">Sri Lanka office: </h4>
-                <p class="card-text">
+                <p class="card-text font-weight-400">
                   <i class="fas fa-map-marker-alt text-primary l-mR5"></i>
                   No.85, Cotta Road, Colombo 8, Colombo Sri Lanka.
                 </p>
                 <h4 class="card-title">Sales Department: </h4>
-                <p class="card-text">
+                <p class="card-text font-weight-400">
                   <i class="fas fa-at text-primary l-mR5"></i>
                   sales@lankapetroleum.com
                 </p>
                 <h4 class="card-title">Procurement Department: </h4>
-                <p class="card-text">
+                <p class="card-text font-weight-400">
                   <i class="fas fa-at text-primary l-mR5"></i>
                   procurement@lankapetroleum.com
                 </p>
@@ -56,15 +56,15 @@
                 <!-- <p class="description">
                   Co-Founder & Board Member
                 </p> -->
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
                   +98-9127997621
                 </p>
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
                   +98-9203184297
                 </p>
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-at text-primary"></i>
                   <span class="email-addrecc-contact-us">shahab.mirzaei@lankapetroleum.com</span>
                 </p>
@@ -97,15 +97,15 @@
                 <!-- <p class="description">
                   Co-Founder & Board Member
                 </p> -->
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
                   +98-9124051589
                 </p>
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
                   +98-9393835889
                 </p>
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-at text-primary"></i>
                   <span class="email-addrecc-contact-us">parisa.nouri@lankapetroleum.com</span>
                 </p>
@@ -129,15 +129,15 @@
                 <!-- <p class="description">
                  Board Member
                 </p> -->
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
                   +98-9123402945
                 </p>
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
                   +98-9109919804
                 </p>
-                <p>
+                <p class="font-weight-400">
                   <i class="fas fa-at text-primary"></i>
                   <span class="email-addrecc-contact-us">ahmad.mohammadi@lankapetroleum.com</span>
                 </p>
