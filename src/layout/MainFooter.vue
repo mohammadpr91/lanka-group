@@ -8,9 +8,9 @@
       <nav>
         <ul>
           <li>
-            <!-- <a href="/contactUs">
+            <a href="/contactUs">
               Contact Us
-            </a> -->
+            </a>
             <!-- <router-link v-popover:popover1 class="navbar-brand" to="/contactUs">
                  Contact Us
             </router-link> -->
