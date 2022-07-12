@@ -98,7 +98,7 @@
         <router-link
           v-popover:popover1
           rel="tooltip"
-          title="Like us on Facebook"
+          title="Contact Us"
           data-placement="bottom"
           class="nav-link"
           to="/contactUs"
@@ -111,7 +111,20 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Like us on Facebook"
+          title="Follow us on LinkedIn"
+          data-placement="bottom"
+          href="https://www.linkedin.com/company/lanka-petroleum/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+          <p class="d-lg-none d-xl-none">LinkedIn</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          rel="tooltip"
+          title="Follow us on Facebook"
           data-placement="bottom"
           href="https://www.facebook.com/Lankapetroleum"
           target="_blank"
