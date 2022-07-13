@@ -27,12 +27,22 @@
                 <h4 class="card-title">Sales Department: </h4>
                 <p class="card-text font-weight-400">
                   <i class="fas fa-at text-primary l-mR5"></i>
-                  sales@lankapetroleum.com
+                  <a
+                    class="email-addrecc-contact-us"
+                    href="mailto:sales@lankapetroleum.com">sales@lankapetroleum.com</a>
+                </p>
+                <p class="card-text font-weight-400">
+                  <i class="fas fa-at text-primary l-mR5"></i>
+                  <a
+                    class="email-addrecc-contact-us"
+                    href="mailto:sales2@lankapetroleum.com">sales2@lankapetroleum.com</a>
                 </p>
                 <h4 class="card-title">Procurement Department: </h4>
                 <p class="card-text font-weight-400">
                   <i class="fas fa-at text-primary l-mR5"></i>
-                  procurement@lankapetroleum.com
+                  <a
+                    class="email-addrecc-contact-us"
+                    href="mailto:procurement@lankapetroleum.com">procurement@lankapetroleum.com</a>
                 </p>
               </div>
             </div>
@@ -53,20 +63,20 @@
                 />
                 <h4 class="title">Shahab Mirzaei</h4>
                 <p class="category text-primary">General Manager</p>
-                <!-- <p class="description">
-                  Co-Founder & Board Member
-                </p> -->
                 <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
-                  +98-9127997621
+                  <a href="tel:+989127997621">+98-9127997621</a>
                 </p>
                 <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
-                  +98-9203184297
+                  <a href="tel:+989203184297">+98-9203184297</a>
                 </p>
                 <p class="font-weight-400">
                   <i class="fas fa-at text-primary"></i>
-                  <span class="email-addrecc-contact-us">shahab.mirzaei@lankapetroleum.com</span>
+                  <a
+                    class="email-addrecc-contact-us"
+                    href="mailto:shahab.mirzaei@lankapetroleum.com"
+                  > shahab.mirzaei@lankapetroleum.com</a>
                 </p>
                  <a
                   href="https://www.linkedin.com/in/shahab-mirzaei-862735183"
@@ -74,15 +84,6 @@
                   target="_blank"
                   ><i class="fab fa-linkedin"></i
                 ></a>
-                <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-google-plus"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a> -->
               </div>
             </div>
             <div class="col-md-4">
@@ -94,20 +95,20 @@
                 />
                 <h4 class="title">Parisa Nouri</h4>
                 <p class="category text-primary">Marketing Manager</p>
-                <!-- <p class="description">
-                  Co-Founder & Board Member
-                </p> -->
                 <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
-                  +98-9124051589
+                  <a href="tel:+989124051589">+98-9124051589</a>
                 </p>
                 <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
-                  +98-9393835889
+                  <a href="tel:+989393835889">+98-9393835889</a>
                 </p>
                 <p class="font-weight-400">
                   <i class="fas fa-at text-primary"></i>
-                  <span class="email-addrecc-contact-us">parisa.nouri@lankapetroleum.com</span>
+                  <a
+                    class="email-addrecc-contact-us"
+                    href="mailto:parisa.nouri@lankapetroleum.com"
+                  > parisa.nouri@lankapetroleum.com</a>
                 </p>
                 <a
                   href="https://www.linkedin.com/in/parisa-nouri"
@@ -126,20 +127,20 @@
                 />
                 <h4 class="title">AhmadReza Mohammadi</h4>
                 <p class="category text-primary">Commercial Manager</p>
-                <!-- <p class="description">
-                 Board Member
-                </p> -->
                 <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
-                  +98-9123402945
+                  <a href="tel:+989123402945">+98-9123402945</a>
                 </p>
                 <p class="font-weight-400">
                   <i class="fas fa-mobile text-primary"></i>
-                  +98-9109919804
+                  <a href="tel:+989109919804">+98-9109919804</a>
                 </p>
                 <p class="font-weight-400">
                   <i class="fas fa-at text-primary"></i>
-                  <span class="email-addrecc-contact-us">ahmad.mohammadi@lankapetroleum.com</span>
+                  <a
+                    class="email-addrecc-contact-us"
+                    href="mailto:ahmad.mohammadi@lankapetroleum.com"
+                  > ahmad.mohammadi@lankapetroleum.com</a>
                 </p>
                 <a
                 href="https://www.linkedin.com/in/ahmadreza-mohammadi-8b3574149"
@@ -149,15 +150,6 @@
                   <i class="fab fa-linkedin">
                   </i>
                 </a>
-                <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-facebook-square"></i
-                ></a> -->
               </div>
             </div>
           </div>
