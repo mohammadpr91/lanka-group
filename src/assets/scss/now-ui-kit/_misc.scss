@@ -1,7 +1,14 @@
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     color: $black-color;
     font-size: $font-size-base;
-    font-family: $sans-serif-family;
+    font-family: 'Lato';
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -79,4 +86,12 @@ body{
 
 .title-up{
   text-transform: uppercase;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.text-align-center {
+    text-align: center;
 }

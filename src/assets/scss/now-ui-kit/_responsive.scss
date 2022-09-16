@@ -70,7 +70,7 @@
 
     .footer{
         .copyright{
-            text-align: right;
+            text-align: center;
         }
     }
 
@@ -227,7 +227,10 @@
 
     .footer{
         .copyright{
-            float: right;
+            // float: right;
+            // display: flex;
+            // padding: 5px;
+            // justify-content: end;
         }
     }
 }

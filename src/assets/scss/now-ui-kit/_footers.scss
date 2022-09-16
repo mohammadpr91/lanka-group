@@ -7,7 +7,7 @@
 
     nav{
         display: inline-block;
-        float: left;
+        // float: left;
     }
 
     ul{
@@ -20,8 +20,8 @@
 
             a{
                 color: inherit;
-                padding: $padding-base-vertical;
-                font-size: $font-size-small;
+                padding: 0px 1em;
+                font-size: 1.5em;
                 text-transform: uppercase;
                 text-decoration: none;
 
@@ -34,6 +34,7 @@
 
     .copyright{
         font-size: $font-size-small;
+        padding: 20px 0px 0px 0px;
     }
 
     &:after{
