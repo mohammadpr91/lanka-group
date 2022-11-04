@@ -2,6 +2,11 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
 import ContactUs from "./pages/ContactUs.vue";
+import whatWeDo from "./pages/what-we-do.vue"
+import whereWeOperate from "./pages/where-we-operate.vue";
+import leaderShip from "./pages/leader-ship.vue";
+import tradingOprations from "./pages/trading-oprations.vue";
+import oilProducts from "./pages/oil-products.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
@@ -33,6 +38,71 @@ export default new Router({
       name: "contactUs",
       components: {
         default: ContactUs,
+        header: MainNavbar,
+        footer: MainFooter,
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" },
+      },
+    },
+    {
+      path: "/what-we-do",
+      name: "whatWeDo",
+      components: {
+        default: whatWeDo,
+        header: MainNavbar,
+        footer: MainFooter,
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" },
+      },
+    },
+    {
+      path: "/where-we-operate",
+      name: "whereWeOperate",
+      components: {
+        default: whereWeOperate,
+        header: MainNavbar,
+        footer: MainFooter,
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" },
+      },
+    },
+    {
+      path: "/leader-ship",
+      name: "leaderShip",
+      components: {
+        default: leaderShip,
+        header: MainNavbar,
+        footer: MainFooter,
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" },
+      },
+    },
+    {
+      path: "/trading-oprations",
+      name: "tradingOprations",
+      components: {
+        default: tradingOprations,
+        header: MainNavbar,
+        footer: MainFooter,
+      },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" },
+      },
+    },
+    {
+      path: "/oil-products",
+      name: "oilProducts",
+      components: {
+        default: oilProducts,
         header: MainNavbar,
         footer: MainFooter,
       },

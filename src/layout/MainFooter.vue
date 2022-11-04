@@ -64,7 +64,7 @@
       <div class="copyright">
         &copy; {{ year }},
         <span>Coded by</span>
-        <a rel="noopener">Lanka Technology</a>.
+        <a rel="noopener"> Lanka Technology</a>.
       </div>
     </div>
   </footer>

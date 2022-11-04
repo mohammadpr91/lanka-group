@@ -22,9 +22,9 @@
         </div>
       </el-popover>
     </template> -->
-      <!-- class="image-container page-header" -->
+    <!-- class="image-container page-header" -->
     <router-link v-popover:popover1 class="navbar-brand" to="/">
-        <img class="navbar-menu-logo-header" src="img/PNG LANKA COLOR.png"/>
+      <img class="navbar-menu-logo-header" src="img/PNG LANKA COLOR.png" />
     </router-link>
     <template slot="navbar-menu">
       <!-- <li class="nav-item">
@@ -37,39 +37,43 @@
           <p>Download</p>
         </a>
       </li> -->
-      <!-- <drop-down
-        tag="li"
-        title="Components"
-        icon="now-ui-icons design_app"
-        class="nav-item"
-      >
-        <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
+
+      <drop-down tag="li" title="About Us" class="nav-item">
+        <!-- icon="now-ui-icons design_image" -->
+        <nav-link to="/what-we-do"> <i class=""></i> What We Do </nav-link>
+        <nav-link to="/where-we-operate">
+          <i class=""></i> Where We Operate
         </nav-link>
-        <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
-          target="_blank"
-          class="dropdown-item"
+        <nav-link to="/leader-ship"> <i class=""></i> Leadership </nav-link>
+        <nav-link to="/trading-oprations">
+          <i class=""></i> Trading Operations
+        </nav-link>
+      </drop-down>
+
+      <drop-down tag="li" title="Products and Services" class="nav-item">
+        <!-- icon="now-ui-icons design_image" -->
+        <nav-link to="/oil-products">
+          <i class=""></i> Oil and Petroleum Products
+        </nav-link>
+      </drop-down>
+      <drop-down tag="li" title="Media" class="nav-item">
+        <!-- icon="now-ui-icons design_image" -->
+        <nav-link to="/products"> <i class=""></i> Cragoes </nav-link>
+        <nav-link to="/products"> <i class=""></i> News </nav-link>
+      </drop-down>
+      <li class="nav-item">
+        <router-link
+          v-popover:popover1
+          rel="tooltip"
+          title="Contact Us"
+          data-placement="bottom"
+          class="nav-link"
+          to="/contactUs"
         >
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
-        </a>
-      </drop-down> -->
-      <!-- <drop-down
-              tag="li"
-              title="Examples"
-              icon="now-ui-icons design_image"
-              class="nav-item"
-      >
-        <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
-        </nav-link>
-        <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
-        </nav-link>
-        <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
-        </nav-link>
-      </drop-down> -->
+          Contact Us
+        </router-link>
+      </li>
+
       <!-- <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
@@ -79,9 +83,8 @@
           <i class="now-ui-icons arrows-1_share-66"></i>
           <p>Upgrade to PRO</p>
         </a>
-      </li>
-
-      <li class="nav-item">
+      </li> -->
+      <!-- <li class="nav-item">
         <a
           class="nav-link"
           rel="tooltip"
@@ -94,78 +97,25 @@
           <p class="d-lg-none d-xl-none">Twitter</p>
         </a>
       </li> -->
-      
-      <li class="nav-item">
-        <router-link
-          v-popover:popover1
-          rel="tooltip"
-          title="Contact Us"
-          data-placement="bottom"
-          class="nav-link"
-          to="/contactUs"
-        >
-          <i class="fas fa-address-book"></i>
-          <p class="d-lg-none d-xl-none">Contact Us</p>
-        </router-link>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on LinkedIn"
-          data-placement="bottom"
-          href="https://www.linkedin.com/company/lanka-petroleum/"
-          target="_blank"
-        >
-          <i class="fab fa-linkedin"></i>
-          <p class="d-lg-none d-xl-none">LinkedIn</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Facebook"
-          data-placement="bottom"
-          href="https://www.facebook.com/Lankapetroleum"
-          target="_blank"
-        >
-          <i class="fab fa-facebook-square"></i>
-          <p class="d-lg-none d-xl-none">Facebook</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Instagram"
-          data-placement="bottom"
-          href="https://instagram.com/lanka_petroleum?igshid=YmMyMTA2M2Y="
-          target="_blank"
-        >
-          <i class="fab fa-instagram"></i>
-          <p class="d-lg-none d-xl-none">Instagram</p>
-        </a>
-      </li>
     </template>
   </navbar>
 </template>
 
 <script>
-import { DropDown, Navbar, NavLink } from '@/components';
-import { Popover } from 'element-ui';
+import { DropDown, Navbar, NavLink } from "@/components";
+import { Popover } from "element-ui";
 export default {
-  name: 'main-navbar',
+  name: "main-navbar",
   props: {
     transparent: Boolean,
-    colorOnScroll: Number
+    colorOnScroll: Number,
   },
   components: {
-    // DropDown,
+    DropDown,
     Navbar,
-    // NavLink,
-    [Popover.name]: Popover
-  }
+    NavLink,
+    [Popover.name]: Popover,
+  },
 };
 </script>
 
